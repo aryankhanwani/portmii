@@ -11,13 +11,13 @@ export default function EnterpriseReferral() {
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 px-3 py-1 text-[11px] font-medium text-emerald-700 bg-emerald-500/10 ring-1 ring-emerald-500/20 rounded-full mb-4">
               <Plus className="h-3 w-3 text-emerald-700" strokeWidth={1.5} />
-              Enterprise Referrals
+              Referral Program
             </div>
             <h3 className="text-3xl font-semibold text-slate-900 tracking-tight mb-3">
-              Refer companies. Earn commission. Get paid.
+              Refer. Earn. Get paid.
             </h3>
             <p className="text-lg text-slate-600">
-              If you have an active Enterprise plan, share your referral link. When they purchase, you earn commission—payouts are processed securely via Stripe.
+              Share your referral link. When they purchase, you earn commission—payouts are processed securely via Stripe.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function EnterpriseReferral() {
                 </div>
                 <h4 className="text-base font-semibold text-slate-900">Eligibility</h4>
               </div>
-              <p className="text-sm text-slate-600">Referrals are available to customers with an active Enterprise plan.</p>
+              <p className="text-sm text-slate-600">Referrals are available to active users with an eligible plan.</p>
             </div>
 
             {/* Card: Commission */}
@@ -57,8 +57,8 @@ export default function EnterpriseReferral() {
           </div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/enterprise-referrals" className="inline-flex items-center px-5 py-3 rounded-lg text-white font-medium transition ring-1 ring-emerald-200" style={{background: 'linear-gradient(180deg, rgb(16,185,129) 0%, rgb(5,150,105) 100%)'}} aria-label="Refer a company to Portmii Enterprise">
-              Refer a Company
+            <a href="/referrals" className="inline-flex items-center px-5 py-3 rounded-lg text-white font-medium transition ring-1 ring-emerald-200" style={{background: 'linear-gradient(180deg, rgb(16,185,129) 0%, rgb(5,150,105) 100%)'}} aria-label="Start referring">
+              Start Referring
               <ArrowRight className="ml-2 h-4 w-4" strokeWidth={1.5} />
             </a>
             <a href="/referral-terms" className="inline-flex items-center px-5 py-3 rounded-lg text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 ring-1 ring-slate-200 font-medium transition">

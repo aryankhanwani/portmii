@@ -34,7 +34,7 @@ export default function Hero() {
               textAlign="center"
               onLetterAnimationComplete={handleAnimationComplete}
             />
-            <div className="text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.5] pb-6 mb-2">
+            <div className="text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.1] lg:leading-[1.2] pb-4 lg:pb-6 mb-2">
               <SplitText
                 text="Link Management Platform"
                 className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600"
