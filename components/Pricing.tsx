@@ -22,7 +22,7 @@ export default function Pricing() {
 
   return (
     <section ref={sectionRef} className="max-w-7xl mx-auto py-24">
-      <div className="text-center mb-16 max-w-3xl mx-auto">
+      <div className="text-center mb-16 max-w-3xl mx-auto px-6">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 text-xs font-medium text-blue-600/90 bg-blue-500/10 ring-1 ring-blue-500/20 rounded-full mb-6 animate-fade-in">
           <Zap className="h-3.5 w-3.5" />
           PRICING PLANS
@@ -42,7 +42,7 @@ export default function Pricing() {
           className="animate-item group relative bg-white rounded-2xl p-8 transition-all duration-300 border border-slate-100 hover:border-blue-100 hover:shadow-xl hover:-translate-y-1 flex flex-col h-full w-full"
         >
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-100 to-purple-100 rounded-2xl opacity-0 group-hover:opacity-30 blur transition duration-1000 group-hover:duration-200"></div>
-          <div className="relative flex-1 flex flex-col">
+          <div className="relative flex-1 flex flex-col ">
             <div>
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-50 mb-6 mx-auto">
                 <Star className="h-6 w-6 text-blue-500" strokeWidth={1.75} />
